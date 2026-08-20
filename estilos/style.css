@@ -2,10 +2,10 @@
 
 /*
 Paleta de Cores
- lightpurple: #A354F7
  purple: #660CB3
- yellow: #FFF83D
- aqua: #0BA166
+ lightyellow: #FCC644
+ yellow: #FCC644
+ aqua: #0EB577
  darkaqua: #0E4736
 */
 
@@ -40,14 +40,15 @@ section#login{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
     display: block;
     width: 100%;
     height: 150px;
-    background: url(../imagens/imagem.jpg) no-repeat right top;
+    background: url(../imagens/imagem.jpg) no-repeat top right;
     background-size: cover;
 }
 

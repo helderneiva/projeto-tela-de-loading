@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    body{
+        background-image: linear-gradient(to top, #360164, #01bd78);
+    }
+
+    section#login{
+        width: 90%;
+        max-width: 600px;
+        min-height: 400px;
+        flex-direction: row;
+    }
+
+    section#login > div#imagem{
+        width: 60%;
+        height: auto;
+        background: url(../imagens/imagem.jpg) no-repeat top center;
+        background-size: cover;
+
+    section#login > div#formulario{
+        width: 40%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+}
+}
+
+@media screen and (min-width: 1024px){
+
+    body{
+        background-image: linear-gradient(to top, #FCC644, #0EB577);
+    }
+
+    section#login{
+        width: 80%;
+        max-width: 850px;
+        height: 550px;   
+        flex-direction: row;
+    }
+
+    section#login > div#imagem{
+        width: 50%;
+        height: 100%;
+        background: url(../imagens/imagem.jpg) no-repeat left top;
+        background-size: cover;
+}
+    section#login > div#formulario {
+        width: 50%;
+        height: 100%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
